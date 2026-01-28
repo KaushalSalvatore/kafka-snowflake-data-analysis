@@ -39,7 +39,11 @@ cd /opt/kafka/bin (if you are using (Kafka Raft) in ZooKeeper not needed)
 ```bash
 (kafka-topics.sh select this for create topic)
 (kafka Raft)
-./kafka-topics.sh --create --topic raw_events --bootstrap-server kafka:9092 --partitions 3 --replication-factor 1
+./kafka-topics.sh \
+--create --topic raw_events \
+--bootstrap-server kafka:9092 \
+--partitions 3 \
+--replication-factor 1
 
 (ZoKeeper)
 kafka-topics.sh \
@@ -112,10 +116,10 @@ kafka-run-class kafka.tools.GetOffsetShell \
 #### Snowflake tables and views that created for data analysis.
 
 #### Data According to date
-![image_01](./images/image_03.png)
+![image_01](./images/image-03.png)
 
 #### Daily customer revenue acording to date
-![image_02](./images/image_04.png)
+![image_02](./images/image-04.png)
 
 #### all E-com customer data 
-![image_03](./images/image_05.png)
+![image_03](./images/image-05.png)
