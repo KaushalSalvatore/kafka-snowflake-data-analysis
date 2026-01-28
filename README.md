@@ -46,7 +46,7 @@ cd /opt/kafka/bin (if you are using (Kafka Raft) in ZooKeeper not needed)
 --replication-factor 1
 
 (ZoKeeper)
-kafka-topics.sh \
+kafka-topics \
   --create \
   --topic raw_events \
   --bootstrap-server localhost:9092 \
