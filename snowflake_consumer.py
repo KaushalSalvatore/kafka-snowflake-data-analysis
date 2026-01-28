@@ -9,9 +9,9 @@ TOPIC_NAME="clean_events"
 GROUP_ID = "snowflake-loader"
 
 SNOWFLAKE_CONFIG = {
-    "user" : "kaushal",
-    "password" : "Kp8770709118$#",
-    "account": "ak65228.ap-southeast-1",
+    "user" : "<<username>>",
+    "password" : "<<password>>",
+    "account": "<<acountnumber>>",
     "warehouse" : "COMPUTE_WH",
     "database" : "KAFKA_DB",
     "schema" : "STREAMING"
